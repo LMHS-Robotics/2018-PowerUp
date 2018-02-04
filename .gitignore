@@ -79,3 +79,13 @@ fabric.properties
 temp/
 Temp/
 tmp/
+
+.idea/
+.gradle/
+./gradle
+./build.gradle
+./gradlew
+./gradlew.bat
+./2018-PowerUp.*
+
+
