@@ -1,12 +1,10 @@
-# Hidden folders
-.idea/*
-.gradle/*
-
-# Gradle folder
-gradle/*
-
 # Files
 build.gradle
 gradlew
 gradlew.bat
 2018-PowerUp.*
+2018-PowerUp_main.iml
+2018-PowerUp_test.iml
+
+.gradle/
+gradle/

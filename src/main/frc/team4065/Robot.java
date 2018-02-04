@@ -1,4 +1,4 @@
-package frc.team4065.robot;
+package frc.team4065;
 
 import edu.wpi.first.wpilibj.IterativeRobot;
 
