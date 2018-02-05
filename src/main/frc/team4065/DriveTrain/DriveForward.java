@@ -1,8 +1,8 @@
-package DriveTrain;
+package frc.team4065.DriveTrain;
 
 import com.ctre.phoenix.motorcontrol.ControlMode;
 import edu.wpi.first.wpilibj.Joystick;
-import edu.wpi.first.wpilibj.RobotDrive;
+import edu.wpi.first.wpilibj.;
 import com.ctre.CANTalon;
 
 public class DriveForward {
@@ -11,6 +11,11 @@ public class DriveForward {
     CANTalon[] motor = new CANTalon[2];
 
     public void execute(Joystick joystick) {
+
+        while(IsOperatorControl() && IsEnabled()) {
+            robotDrive.
+        }
+
         double left = joystick.getRawAxis(2);
         double right = -joystick.getRawAxis(5);
 

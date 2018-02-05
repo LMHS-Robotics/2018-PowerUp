@@ -6,5 +6,7 @@ gradlew.bat
 2018-PowerUp_main.iml
 2018-PowerUp_test.iml
 
+# Folders
 .gradle/
 gradle/
+build/
