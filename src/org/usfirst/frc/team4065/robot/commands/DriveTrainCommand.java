@@ -1,6 +1,6 @@
-package com.ellisbarnes.Commands;
+package org.usfirst.frc.team4065.robot.commands;
 
-import com.ellisbarnes.Robot;
+import org.usfirst.frc.team4065.robot.Robot;
 import edu.wpi.first.wpilibj.command.Command;
 
 
@@ -11,12 +11,12 @@ public class DriveTrainCommand extends Command {
 
     @Override
     protected void initialize() {
-        System.out.printf("Stopping DriveTrainCommand");
+        System.out.printf("Starting DriveTrainCommand");
     }
 
     @Override
     protected void execute() {
-        Robot.DRIVE_TRAIN_SUBSYSTEM.tankDrive(Robot.oi.driver);
+        Robot.DRIVE_TRAIN_SUBSYSTEM.tankDrive(Robot.m_oi.driverJoystick);
     }
 
     @Override

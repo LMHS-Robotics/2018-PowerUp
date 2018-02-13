@@ -1,13 +1,11 @@
 # Files
-build.gradle
-gradlew
-gradlew.bat
-2018-PowerUp.*
-2018-PowerUp_main.iml
-2018-PowerUp_test.iml
+.classpath
+.project
+build.properties
+build.xml
 
 # Folders
-.idea/
-.gradle/
-gradle/
 build/
+bin/
+build/
+dist/
