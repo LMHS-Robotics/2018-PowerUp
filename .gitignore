@@ -1,12 +1,11 @@
 # Files
 .classpath
 .project
-build.properties
-build.xml
+*.properties
+*.xml
 
 # Folders
 build/
 bin/
 build/
 dist/
-build.xml
